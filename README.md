@@ -15,7 +15,7 @@ Preparamos uma atividade extra pra quem quiser manter o motor aquecido:
   * Dados da equipe: olha uma oportunidade pra brincar com as bordas de imagens 📸
   * Galeria de fotos: muitas fotos! 
 
-### Alinhamentos finais:
+### Alinhamentos:
 
 * Nesta atividade vocês poderão praticar todos os conteúdos vistos até aqui de git, HTML e CSS.
 * Esta atividade é opcional e não avaliativa.
