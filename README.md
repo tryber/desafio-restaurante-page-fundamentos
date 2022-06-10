@@ -7,6 +7,7 @@ Preparamos uma atividade extra pra quem quiser manter o motor aquecido:
 
 * Para esta atividade é sugerido que você crie uma página de restaurante 🧑‍🍳.
 * Antes de começar, procure páginas de restaurantes para se inspirar 🧑‍🎨.
+* Você pode fazer um `fork` no GitHub ou criar seu próprio repositório.
 * Construa uma página de restaurante com (sugestão):
   * Banner principal: escolha uma imagem de fundo bacana, e uma familia de fonte que se destaque! 😉
   * Cardápio: use títulos, parágrafos e imagens para montar uma seção de cardápio deliciosa! 😋
