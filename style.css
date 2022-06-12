@@ -1,2 +1,84 @@
 /* Adicione aqui todo o estilo da sua página */
 /* Hora de colocar a criatividade em prática! */
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #f0e6ef;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sidebar {
+    /* background-color: #f0a6ca; */
+    display: block;
+    width: 20%;
+    height: 100%;
+    margin-bottom: 0px;
+    position:fixed;
+}
+
+.chefdesc {
+    background-color: #efc3e6;
+    margin: 100px 10px 10px 10px;
+    padding: 20px;
+    text-align: justify;
+    box-shadow: 2px 2px 1px #9c89b8;
+    color: #505050;
+    font-family: 'Montserrat';
+}
+
+.chef {
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid #b8bedd;
+    opacity: 0.8;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    color: #9c89b8;
+    text-align: center;
+}
+
+nav {
+    background-color: #efc3e6;
+    margin: 20px 10px 10px 10px;
+    box-shadow: 2px 2px 1px #9c89b8;
+    
+}
+
+li {
+    margin-left: -40px;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    list-style-type: none;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+li:hover{
+    background-color: #9c89b8;
+    cursor: pointer;
+}
+
+li:hover a {
+    color:#fff;
+}
+
+
+
+li a {
+    text-decoration: none;
+    color: #9c89b8;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition-property: color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+}
