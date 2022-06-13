@@ -1,5 +1,3 @@
-/* Adicione aqui todo o estilo da sua página */
-/* Hora de colocar a criatividade em prática! */
 * {
     margin: 0;
 }
@@ -10,10 +8,10 @@ body {
 }
 
 .sidebar {
-    /* background-color: #f0a6ca; */
     display: block;
     width: 20%;
     height: 100%;
+    margin-left: 50px;
     margin-bottom: 0px;
     position:fixed;
 }
@@ -29,7 +27,8 @@ body {
 }
 
 .chef {
-    width: 300px;
+    margin-left: 25px;
+    width: 80%;
     border-radius: 50%;
     border: 5px solid #b8bedd;
     opacity: 0.8;
@@ -82,3 +81,27 @@ li a {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 300ms;
 }
+
+.maincontent {
+    margin-left: 500px;
+    height: 100%;
+    width: 60%;
+    background-color: #f0a6ca;
+}
+
+.header {
+    background-image: url(https://wallpx.com/image/2021/07/cake-ice-cream-strawberry-anime-food-dessert.jpg);
+    background-size: cover;
+    background-position: 40%;
+    background-repeat: no-repeat;
+    opacity: 70%;
+    height: 700px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Lobster';
+    color: #9c89b8;
+    text-shadow: 2px 2px black;
+  }
