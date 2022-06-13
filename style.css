@@ -3,6 +3,10 @@
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #F4C095;
+}
+/* css do cabeçalho */
 header {
     font-family: 'Lobster', cursive;
 }
@@ -45,10 +49,21 @@ header {
 }
 
 .navigation li {
+    margin-right: 10px;
     font-size: 24px;
     display: inline-block;
 }
 
 .navigation li a {
     text-decoration: none;
+}
+/* CSS DO ABOUT */
+.about {
+    width: 48%;
+    display: inline-block;
+}
+
+.restaurant-photo {
+    width: 36%;
+    display: inline-block;
 }
