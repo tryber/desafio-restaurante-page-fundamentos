@@ -1,5 +1,54 @@
 * {
-    margin: 0;
-    padding: 0;
+    color: #252627;
     scroll-behavior: smooth;
+}
+
+header {
+    font-family: 'Lobster', cursive;
+}
+
+.headers {
+    text-align: center;
+}
+
+.logo {
+    text-align: left;
+    width: 48%;
+    display: inline-block;
+}
+
+.image {
+    display: inline-block;
+}
+
+.image img{
+    max-width: 60px;
+}
+
+
+.text {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.text h1{
+    font-size: 24px;
+    display: inline-block;
+}
+
+.navigation {
+    width: 48%;
+    text-align: end;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.navigation li {
+    font-size: 24px;
+    display: inline-block;
+}
+
+.navigation li a {
+    text-decoration: none;
 }
