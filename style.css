@@ -4,7 +4,7 @@
 
 body {
     background-color: #f0e6ef;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat';
 }
 
 .sidebar {
@@ -39,6 +39,7 @@ h2 {
     font-size: 40px;
     color: #9c89b8;
     text-align: center;
+    text-shadow: 1px 1px black;
 }
 
 nav {
@@ -55,7 +56,7 @@ li {
     transition-duration: 300ms;
     list-style-type: none;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     padding: 10px;
 }
 
@@ -105,3 +106,59 @@ li a {
     color: #9c89b8;
     text-shadow: 2px 2px black;
   }
+
+.intro {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #efc3e6;
+    padding: 12px;
+    margin-top: 30px;
+    margin-left: 400px;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    color: #000000;
+    border: 2px solid white;
+ }
+
+ .intro:hover {
+    color: white;
+    border: 2px solid white;
+    background-color: #9c89b8;
+    transition-property: color border background-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    cursor: url(http://www.rw-designer.com/cursor-view/92478.png), auto;
+ }
+
+ .cardapio {
+    display: inline-block;
+    background-color: white;
+    padding: 40px;
+    margin-top: 8%;
+ }
+
+ .menu {
+    display: inline-block;
+ }
+
+ .menuimg {
+    width: 250px;
+
+ }
+
+ h3 {
+    color: #9c89b8;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 5px;
+ }
+
+ .item {
+    margin-top: 20px;
+    margin-left: 35px;
+    display: inline-block;
+    width: 250px;
+    padding: 20px;
+    text-align: justify;
+ }
