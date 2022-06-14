@@ -13,7 +13,7 @@ hr {
 }
 
 body {
-    background-color: #F4C095;
+    background-color: #FFEAEC;
 }
 /* css do cabeçalho */
 header {
@@ -63,6 +63,7 @@ header {
     margin-right: 10px;
     font-size: 24px;
     display: inline-block;
+    font-family: 'Raleway', sans-serif;
 }
 
 .navigation li a {
@@ -79,8 +80,13 @@ header {
     vertical-align: top;
 }
 
-section {
+.description-about {
     margin-top: 60px;
+    /* border: 1px solid black; */
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #FFEAEC;
+    border-radius: 20px;
 }
 
 .about h1 {
@@ -97,14 +103,36 @@ section {
     margin-top: 5%;
     width: 80%;
     font-size: 24px;
+    text-align: justify;
 }
 
 .restaurant-photo {
-    width: 48%;
+    width: 51.76%;
     display: inline-block;
 }
 
 .restaurant-photo img {
-    width: 80%;
-    border-radius: 100px;
+    width: 100%;
+    border-radius: 20px;
+    -webkit-box-shadow: 5px 5px 12px -2px rgba(0,0,0,0.82); 
+    box-shadow: 5px 5px 12px -2px rgba(0,0,0,0.82); 
+}
+/* css do cardapio */
+.menu {
+    border: 1px solid #252627;
+    margin-top: 24px;
+}
+
+.cardapio {
+    margin: 0 5%;
+}
+
+.dishes {
+    width: 20%;
+    border: 1px solid #252627;
+    display: inline-block;
+}
+
+.dishes img {
+    width: 100%;
 }
