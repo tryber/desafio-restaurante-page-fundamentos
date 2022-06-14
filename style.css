@@ -1,2 +1,279 @@
-/* Adicione aqui todo o estilo da sua página */
-/* Hora de colocar a criatividade em prática! */
+* {
+    color: #252627;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    height:1px;
+    border-width:0;
+    color:gray;
+    background-color:#252627
+}
+
+body {
+    background-color: #fefae0;
+}
+/* css do cabeçalho */
+header {
+    font-family: 'Lobster', cursive;
+    background-color: #ccd5ae;
+}
+
+.headers {
+    text-align: center;
+}
+
+.logo {
+    text-align: left;
+    width: 48%;
+    display: inline-block;
+}
+
+.image {
+    display: inline-block;
+}
+
+.image img{
+    max-width: 60px;
+    vertical-align: middle;
+}
+
+.text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.text h1{
+    color: #252627;
+    font-size: 24px;
+    display: inline-block;
+}
+
+.navigation {
+    width: 48%;
+    text-align: end;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.navigation li {
+    margin-right: 10px;
+    font-size: 24px;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navigation li a {
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #FFEAEC;
+}
+/* CSS DO ABOUT */
+.about {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.description-about {
+    margin-top: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #fefae0;
+    border-radius: 20px;
+}
+
+.about h1 {
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    font-size: 36px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.about p {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 10%;
+    margin-top: 5%;
+    width: 80%;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.restaurant-photo {
+    width: 51.76%;
+    display: inline-block;
+}
+
+.restaurant-photo img {
+    width: 100%;
+    border-radius: 24px;
+    -webkit-box-shadow: 5px 5px 12px -2px rgba(0,0,0,0.82); 
+    box-shadow: 5px 5px 12px -2px rgba(0,0,0,0.82); 
+}
+/* css do cardapio */
+.menu {
+    margin-top: 40px;
+}
+
+.cardapio {
+    display: inline-block;
+    text-align: center;
+    margin: 0 5%;
+}
+
+.dishes {
+    text-align: center;
+    width: 20%;
+    display: inline-block;
+    margin: 0 1%;
+    background-color: #ccd5ae;
+    border-radius: 24px;
+    -webkit-box-shadow: 5px 5px 12px -2px rgba(0,0,0,0.82); 
+    box-shadow: 5px 5px 12px -2px rgba(0,0,0,0.82); 
+}
+
+.dishes img {
+    border-radius: 24px 24px 0 0;
+    width: 100%;
+}
+
+h3 {
+    margin-top: 5px;
+    font-family: 'Lobster', cursive;
+}
+
+.dishes p {
+    font-family: 'Raleway', sans-serif;
+    margin: 5%;
+}
+
+.cardapio h1{
+    color: #252627;
+    font-size: 36px;
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    margin-bottom: 2%;
+}
+/* chef section css */
+
+.time {
+    text-align: center;
+    width: 50%;
+    height: min-content;
+    margin: auto;
+    background-color: #ccd5ae;
+    border-radius: 24px;
+    -webkit-box-shadow: 5px 5px 12px -2px rgba(0,0,0,0.82); 
+    box-shadow: 5px 5px 12px -2px rgba(0,0,0,0.82); 
+}
+
+.chef {
+    margin-top: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.about-chef {
+    width: 49%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.about-chef p{
+    font-family: 'Raleway', sans-serif;
+    margin: 5%;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.about-chef h1{
+    font-family: 'Lobster', cursive;
+    color: #252627;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.chef-photo {
+    margin-left: 20px;
+    display: inline-block;
+    width: 48%;
+}
+
+.chef-photo img {
+    width: 100%;
+    border-radius: 24px;
+    border-radius: 0 24px 24px 0;
+    vertical-align: middle;
+}
+/* css comentarios */
+
+.comments-section {
+    margin: 60px auto;
+    width: 80%;
+}
+
+.comments-section h1 {
+    text-align: center;
+    margin-bottom: 2%;
+    font-family: 'Lobster', cursive;
+    color: #252627;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.comments {
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+}
+
+.comments p {
+    margin: 16px;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    width: 60%;
+}
+
+.comments img {
+    width: 50%;
+    border-radius: 24px;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: none;
+}
+
+.adress {
+    text-align: center;
+    font-size: large;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 40px;
+}
+
+.socialmedia {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.socialmedia i {
+    color: #252627;
+    height: 24px;
+}
+.socialmedia a {
+    color: #252627;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    margin-left: 24px;
+}

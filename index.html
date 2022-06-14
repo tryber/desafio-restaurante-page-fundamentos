@@ -1,16 +1,131 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-
-  <!-- Adicione o estilo da sua página no arquivo CSS -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/973dc71bef.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
-
-  <!-- Algum nome especial para seu restaurante? -->
-  <title>Document</title>
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:wght@100;400;700&display=swap" rel="stylesheet">
+  <title>Restaurante</title>
 </head>
 <body>
-  <!-- Adicione aqui a estrutura HTML da página do seu restaurante -->
+  <header>
+    <div class="headers">
+      <div class="logo">
+        <div class="image">
+          <img src="./images/logo1.png" id="home" alt="logo">
+      </div>
+      <div class="text">
+          <h1>RESTAURANTE <br>
+      </div>
+      </div>
+     
+        <nav class="navigation">
+          <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="#menu">MENU</a></li>
+            <li><a href="#team">CHEF</a></li>
+            <li><a href="#contacts">CONTACTS</a></li>
+          </ul>
+        </nav>
+
+        <hr>
+    </div>
+  </header>
+  <main>
+    <section class="description-about">
+      <div class="about" id="about">
+        <h1>About us</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam quae soluta minima corporis velit esse temporibus. A itaque quam voluptate eos, facilis asperiores temporibus molestiae numquam, consectetur, libero nam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam quae soluta minima corporis velit esse temporibus. A itaque quam voluptate eos, facilis asperiores temporibus molestiae numquam, consectetur, libero nam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam quae soluta minima corporis velit esse temporibus. A itaque quam voluptate eos, facilis asperiores temporibus molestiae numquam, consectetur, libero nam. Nemo?
+        </p>
+      </div>
+      <div class="restaurant-photo">
+        <img src="./images/restaurant.jpg" alt="foto do restaurante" loading="lazy">
+      </div>
+    </section>
+    <section class="menu" id="menu">
+
+        <div class="cardapio">
+          <h1>Menu</h1>
+          <div class="dishes">
+            <img src="./images/prato1.jpg" alt="foto prato 1" loading="lazy">
+            <h3>Prato 1</h3><p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ratione quam praesentium eveniet.</p>
+          </div>
+          <div class="dishes">
+            <img src="./images/prato2.jpg" alt="foto prato 2" loading="lazy">
+            <h3>Prato 2</h3><p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ratione quam praesentium eveniet.</p>
+          </div>
+          <div class="dishes">
+            <img src="./images/prato3.jpg" alt="foto prato 3" loading="lazy">
+            <h3>Prato 3</h3><p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ratione quam praesentium eveniet.</p>
+          </div>
+          <div class="dishes">
+            <img src="./images/prato4.jpg" alt="foto prato 4" loading="lazy">
+            <h3>Prato 4</h3><p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ratione quam praesentium eveniet.</p>
+          </div>
+        </div>
+
+    </section>
+    
+    <section class="chef" id="team">
+
+      <div class="time">
+        <div class="about-chef" >
+          <h1>Chef - Name</h1>
+          <p>
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+          </p>
+        </div>
+        <div class="chef-photo">
+          <img src="./images/chef.jpg" alt="foto do chef">
+        </div>
+      </div>
+
+    </section>
+    <section class="comments-section">
+      <h1>Comentários</h1>
+      <div class="comments">
+        <img src="./images/person1.jpg" alt="foto pessoa 1"  loading="lazy">
+        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab possimus modi debitis voluptates labore! Soluta atque esse reprehenderit fuga dolores adipisci cumque quae, nesciunt commodi dolorum, perferendis eum. Numquam, nam."</p>
+      </div>
+      <div class="comments">
+        <img src="./images/person2.jpg" alt="foto pessoa 2" loading="lazy">
+        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab possimus modi debitis voluptates labore! Soluta atque esse reprehenderit fuga dolores adipisci cumque quae, nesciunt commodi dolorum, perferendis eum. Numquam, nam."</p>
+      </div>
+      <div class="comments">
+        <img src="./images/person3.jpg" alt="foto pessoa 3" loading="lazy">
+        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab possimus modi debitis voluptates labore! Soluta atque esse reprehenderit fuga dolores adipisci cumque quae, nesciunt commodi dolorum, perferendis eum. Numquam, nam."</p>
+      </div>
+    </section>
+    <section class="local" id="contacts">
+      <div class="socialmedia">
+         <a href="" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i> @Instagram</a>
+         <a href="" target="_blank"><i class="fa-brands fa-whatsapp fa-lg"></i> +55(55)9999-5555</a>
+         <a href="" target="_blank"><i class="fa-brands fa-facebook-square fa-lg"></i> Facebook</a>
+      </div>
+      <div class="adress">
+        <p>
+          Endereço : <br>
+          Cidade de XXXXXXX <br>
+          Bairro Lorem ipsum <br>
+          Rua Possimus, 999 <br>
+          Telefone: +55 55555-5555
+        </p>
+      </div>
+
+    </section>
+  </main>
+  <footer>
+    ©2022 by Murilo.
+  </footer>
 </body>
 </html>
