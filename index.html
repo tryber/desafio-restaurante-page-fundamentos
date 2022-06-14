@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
-  <title>Loja de Doces do L</title>
+  <title>Confeitaria do L</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Parisienne&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -21,9 +21,9 @@
 
       <nav class="nav">
         <ul>
-          <li><a href="http://" target="_blank">Cardapio</a></li>
-          <li><a href="http://" target="_blank">Depoimentos</a></li>
-          <li><a href="http://" target="_blank">Contato</a></li>
+          <a href="#cardapio" target=""><li>Cardapio</li></a>
+          <a href="#depoimentos" target=""><li>Depoimentos</li></a>
+          <a href="#contato" target=""><li>Contato</li></a>
         </ul>
       </nav>
     </section>
@@ -34,31 +34,31 @@
     </header>
     <h1>L'Patisserie</h1>
     <div class="intro">C O N F E I T A R I A </div>
-    <div class="cardapio">
+    <div id="cardapio" class="cardapio">
       <h2>Cardapio</h2>
       <div class="menu">
         <div class="item">
           <img src="https://c.tenor.com/eQd6Lj2GxrgAAAAC/pie-anime.gif" alt="Torta de Maca" class="menuimg">
           <h3>Favorito do Shinigami</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod nihil, quae ducimus explicabo odit non libero recusandae saepe? Incidunt nemo similique, quis voluptate rerum eius ex voluptas beatae numquam nostrum?</p>
+          <p>Torta de Maca classica com toque especial do chefe, preparada com <strong>macas de verdade</strong> e creme especial feito com nozes e canela. A crosta macia, firme e crocante tem leve sabor amanteigado que derrete na boca.</p>
         </div>
         <div class="item">
-          <img src="https://media0.giphy.com/media/2Bb04Ov2AtmbC/giphy.gif" alt="Torta de Maca" class="menuimg">
+          <img src="https://media0.giphy.com/media/2Bb04Ov2AtmbC/giphy.gif" alt="Sorvete" class="menuimg">
           <h3>Sorvete do Novo Mundo</h3>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod nihil, quae ducimus explicabo odit non libero recusandae saepe? Incidunt nemo similique, quis voluptate rerum eius ex voluptas beatae numquam nostrum?</p>
         </div>
         <div class="item">
-          <img src="https://i.gifer.com/origin/de/de19591429b0cd29f3ff5b7a2bee533d.gif" alt="Torta de Maca" class="menuimg">
+          <img src="https://i.gifer.com/origin/de/de19591429b0cd29f3ff5b7a2bee533d.gif" alt="Combo de Tortas" class="menuimg">
           <h3>Ataque Cardiaco</h3>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod nihil, quae ducimus explicabo odit non libero recusandae saepe? Incidunt nemo similique, quis voluptate rerum eius ex voluptas beatae numquam nostrum?</p>
         </div>
         <div class="item">
-          <img src="https://64.media.tumblr.com/b6163e33be355166fa5094849b2ac1ed/b11cfe1e69c4deaa-40/s540x810/d0e018faab81b6a0ea40fad26d9b0d2c599bb642.gif" alt="Torta de Maca" class="menuimg">
+          <img src="https://64.media.tumblr.com/b6163e33be355166fa5094849b2ac1ed/b11cfe1e69c4deaa-40/s540x810/d0e018faab81b6a0ea40fad26d9b0d2c599bb642.gif" alt="Crepe de Sorvete" class="menuimg">
           <h3>Paraiso</h3>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod nihil, quae ducimus explicabo odit non libero recusandae saepe? Incidunt nemo similique, quis voluptate rerum eius ex voluptas beatae numquam nostrum?</p>
         </div>
         <div class="item">
-          <img src="https://i.pinimg.com/originals/8d/b5/3e/8db53eefcf3be336b3898a8d877fcc13.gif" alt="Torta de Maca" class="menuimg">
+          <img src="https://i.pinimg.com/originals/8d/b5/3e/8db53eefcf3be336b3898a8d877fcc13.gif" alt="Sanduiche de Morango" class="menuimg">
           <h3>Olhos Vermelhos</h3>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod nihil, quae ducimus explicabo odit non libero recusandae saepe? Incidunt nemo similique, quis voluptate rerum eius ex voluptas beatae numquam nostrum?</p>
         </div>
@@ -72,16 +72,46 @@
 
       </div>
     </div>
-    
 
-      <br>
-      <br>
-      <br>
+    <div id="depoimentos" class="testimonials">
+      <h2>Depoimentos</h2>
+      <div class="cliente">
+        <img src="https://i.pinimg.com/736x/08/8c/cd/088ccd88486d1375170669498992fd91.jpg" alt="Foto do Saiki" class="imgcliente">
+        <h3>Saiki Kusuo</h3>
+        <p><em>Tao bom que precisei vir de outra realidade para experimentar.</em></p>
+      </div>
+      <div class="cliente">
+        <img src="https://i1.sndcdn.com/avatars-JWQrzt7pKYitrk9z-zgPlGg-t500x500.jpg" alt="Foto do Sanji" class="imgcliente">
+        <h3>Sanji</h3>
+        <p><em>Tao bom que precisei vir de outra realidade para experimentar.</em></p>
+      </div>
+      <div class="cliente">
+        <img src="https://i.pinimg.com/originals/4c/bb/6b/4cbb6b70bd37fef3d0d2ff44f68742a4.jpg" alt="Foto da Usagi" class="imgcliente">
+        <h3>Usagi Tsukino</h3>
+        <p><em>Tao bom que precisei vir de outra realidade para experimentar.</em></p>
+      </div>
+    </div>
 
-      <br>
-      <br>
-      <br>
-    </p>
+    <div id="contato" class="contato">
+      <h2>Contato</h2>
+      <div class="contatoleft"><h2>Endereco</h2>
+        <p>
+          Rua dos Bobos, 0 <br>
+          Aldeia de Konoha <br>
+          Shinganshina <br>
+          DigiMundo <br>
+
+        </p>
+      </div>
+      <div class="contatoright"><h2>Reservas</h2>
+        <p>Por favor, considerar marcar sua reserva com uma semana de antecedencia pois o local costuma estar lotado. <br>
+
+          <strong>Telefone:</strong> +55 1 0000-0000
+        </p>
+      </div>
+    </div>
+
+    <footer class="footer">Feito com carinho por xxxx.</footer>
   </main>
 
 </body>

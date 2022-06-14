@@ -26,6 +26,11 @@ body {
     font-family: 'Montserrat';
 }
 
+.chefdesc p {
+    background-color: #e2b2e9;
+    padding: 10px;
+}
+
 .chef {
     margin-left: 25px;
     width: 80%;
@@ -34,12 +39,17 @@ body {
     opacity: 0.8;
 }
 
+strong {
+    color: #9c89b8;
+}
+
 h2 {
     font-family: 'Lobster', cursive;
     font-size: 40px;
     color: #9c89b8;
     text-align: center;
     text-shadow: 1px 1px black;
+    margin-bottom: 10px;
 }
 
 nav {
@@ -69,9 +79,11 @@ li:hover a {
     color:#fff;
 }
 
+a {
+    text-decoration: none;
+}
 
-
-li a {
+a li {
     text-decoration: none;
     color: #9c89b8;
     font-family: 'Montserrat';
@@ -116,7 +128,7 @@ li a {
     margin-left: 400px;
     font-family: 'Montserrat';
     font-size: 30px;
-    color: #000000;
+    color: #505050;
     border: 2px solid white;
  }
 
@@ -135,6 +147,7 @@ li a {
     background-color: white;
     padding: 40px;
     margin-top: 8%;
+    color: #505050;
  }
 
  .menu {
@@ -143,6 +156,16 @@ li a {
 
  .menuimg {
     width: 250px;
+
+ }
+
+ .menuimg:hover {
+    width: 300px;
+    margin-left: -20px;
+    transition-property: width margin;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    cursor: url(http://www.rw-designer.com/cursor-view/92478.png), auto;
 
  }
 
@@ -161,4 +184,62 @@ li a {
     width: 250px;
     padding: 20px;
     text-align: justify;
+ }
+
+ .testimonials {
+    display: inline-block;
+    padding: 20px;
+ }
+
+.imgcliente {
+    width: 200px;
+    border-radius: 20%;
+    margin-left: 30px;
+    border: 5px solid #b8bedd;
+}
+
+ .cliente {
+    margin-top: 30px;
+    margin-left: 38px;
+    display: inline-block;
+    width: 25%;
+    background-color: #f0e6ef;
+    padding: 20px;
+    text-align: justify;
+    box-shadow: 2px 2px #505050;
+    margin-bottom: 50px;
+ }
+
+ .contato {
+    background-color: #ffffff;
+    padding: 40px;
+ }
+
+.contato p {
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+
+ .contatoleft {
+    margin-top: 20px;
+    display: inline-block;
+    width: 400px;
+    padding: 40px;
+    background-color: #efc3e6;
+    margin-left: 20px;
+ }
+
+ .contatoright {
+    margin-top: 20px;
+    display: inline-block;
+    width: 400px;
+    padding: 40px;
+    background-color: #efc3e6;
+    margin-left: 10px;
+ }
+
+ footer {
+    background-color: #b8bedd;
+    padding: 20px;
+    text-align: center;
  }
