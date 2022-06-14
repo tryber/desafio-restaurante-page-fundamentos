@@ -1,2 +1,161 @@
-/* Adicione aqui todo o estilo da sua página */
-/* Hora de colocar a criatividade em prática! */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://i.ibb.co/RSL9h9p/cool-background.png");
+    background-size: cover;
+    
+
+}
+
+#trybelogo {
+    height: 200px;
+    padding-top: 30px;
+}
+
+.backgroundlogo {
+    background-color: rgba(122, 122, 122, 0.199);
+    border-bottom: 2px solid black;
+}
+
+ol li {
+    display: inline;
+    font-family: "Josefin Sans", sans-serif;
+    margin: 50px;
+    background-color: rgba(122, 122, 122, 0.199);
+    border-radius: 2px;
+}
+
+.navbox {
+    text-align: right;
+    height: 110px;
+    padding-top: 10px;
+}
+
+.navbox a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbox li:hover {
+    background-color: rgba(43, 255, 0, 0.24);
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+#about {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 200px;
+    line-height: 80%;
+    text-shadow: 2px 2px black;
+    color: rgb(128, 128, 128);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about p {
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 20px;
+    text-shadow: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.459);
+    width: 50%;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px black;
+    border: 1px solid white;
+}
+
+.backgroundabout {
+    background-image: url("https://img.freepik.com/free-photo/blur-coffee-cafe-shop-restaurant-with-bokeh-background_1421-472.jpg?w=1380&t=st=1655151749~exp=1655152349~hmac=2d42ef38cce599dd92573697e96c9d7251684c388299887757bf5e0c2d5679bb");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1700px;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 5px 5px 5px black;
+    border: 1px solid white;
+
+
+}
+
+#about small {
+    font-size: 50px;
+    margin-right: 100px;
+}
+
+.backgroundmenu {
+    background-image: url("https://i.ibb.co/nwBvM15/menu-png.png");
+    background-size: cover;
+    width: 700px;
+    height: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    border: 1px solid white;
+}
+
+#menu {
+    margin-top: 35px;
+}
+
+#menu p {
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+    line-height: 25px;
+}
+
+#menu small {
+    font-size: 20px;
+    color: rgba(24, 221, 17, 0.699);
+    text-shadow: 1px 1px black;
+}
+
+#contact {
+    margin-top: 20px;
+
+}
+
+#contact p {
+    font-size: 50px;
+    font-family: "Josefin Sans", sans-serif;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.219);
+    padding-top: 5px;
+    border: 2px solid white;
+}
+
+footer {
+    background-color: black;
+    margin-top: 20px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: red;
+}
+
+footer a:hover {
+    background-color: rgba(240, 248, 255, 0.096);
+    border-radius: 5px;
+    border: 1px solid red;
+}
