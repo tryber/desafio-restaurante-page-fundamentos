@@ -134,7 +134,7 @@ header {
     width: 20%;
     border: 1px solid #252627;
     display: inline-block;
-    margin: 0 2%;
+    margin: 0 1%;
     background-color: #94BFA7;
     border-radius: 36px;
 }
@@ -152,5 +152,13 @@ h3 {
 .dishes p {
     font-family: 'Raleway', sans-serif;
     margin: 5%;
+}
+
+.cardapio h1{
+    color: #252627;
+    font-size: 36px;
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    margin-bottom: 2%;
 }
 
