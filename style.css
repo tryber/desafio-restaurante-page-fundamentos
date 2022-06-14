@@ -120,19 +120,37 @@ header {
 /* css do cardapio */
 .menu {
     border: 1px solid #252627;
-    margin-top: 24px;
+    margin-top: 40px;
 }
 
 .cardapio {
+    display: inline-block;
+    text-align: center;
     margin: 0 5%;
 }
 
 .dishes {
+    text-align: center;
     width: 20%;
     border: 1px solid #252627;
     display: inline-block;
+    margin: 0 2%;
+    background-color: #94BFA7;
+    border-radius: 36px;
 }
 
 .dishes img {
+    border-radius: 36px 36px 0 0;
     width: 100%;
 }
+
+h3 {
+    margin-top: 5px;
+    font-family: 'Lobster', cursive;
+}
+
+.dishes p {
+    font-family: 'Raleway', sans-serif;
+    margin: 5%;
+}
+
