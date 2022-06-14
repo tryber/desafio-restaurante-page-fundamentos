@@ -9,16 +9,16 @@ hr {
     height:1px;
     border-width:0;
     color:gray;
-    background-color:gray
+    background-color:#252627
 }
 
 body {
-    background-color: #FFEAEC;
+    background-color: #fefae0;
 }
 /* css do cabeçalho */
 header {
     font-family: 'Lobster', cursive;
-    background-color: #94BFA7;
+    background-color: #ccd5ae;
 }
 
 .headers {
@@ -82,10 +82,9 @@ header {
 
 .description-about {
     margin-top: 60px;
-    /* border: 1px solid black; */
     margin-left: 5%;
     margin-right: 5%;
-    background-color: #FFEAEC;
+    background-color: #fefae0;
     border-radius: 20px;
 }
 
@@ -119,7 +118,6 @@ header {
 }
 /* css do cardapio */
 .menu {
-    border: 1px solid #252627;
     margin-top: 40px;
 }
 
@@ -132,11 +130,12 @@ header {
 .dishes {
     text-align: center;
     width: 20%;
-    border: 1px solid #252627;
     display: inline-block;
     margin: 0 1%;
-    background-color: #94BFA7;
+    background-color: #ccd5ae;
     border-radius: 36px;
+    -webkit-box-shadow: 5px 5px 12px -2px rgba(0,0,0,0.82); 
+    box-shadow: 5px 5px 12px -2px rgba(0,0,0,0.82); 
 }
 
 .dishes img {
@@ -161,4 +160,44 @@ h3 {
     font-weight: 100;
     margin-bottom: 2%;
 }
+/* chef section css */
 
+.chef {
+    margin-top: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.about-chef {
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.about-chef p{
+    font-family: 'Raleway', sans-serif;
+    margin: 5%;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.about-chef h1{
+    font-family: 'Lobster', cursive;
+    color: #252627;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.chef-photo {
+    margin-left: 16px;
+    display: inline-block;
+    width: 20%;
+}
+
+.chef-photo img {
+    width: 100%;
+    border-radius: 5%;
+    vertical-align: middle;
+}
