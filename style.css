@@ -156,6 +156,7 @@ a li {
 
  .menuimg {
     width: 250px;
+    border: 2px solid #b8bedd;
 
  }
 
@@ -201,12 +202,13 @@ a li {
  .cliente {
     margin-top: 30px;
     margin-left: 38px;
+    font-family: 'Montserrat';
     display: inline-block;
     width: 25%;
     background-color: #f0e6ef;
     padding: 20px;
-    text-align: justify;
-    box-shadow: 2px 2px #505050;
+    text-align: center;
+    box-shadow: 2px 2px 1px #9c89b8;
     margin-bottom: 50px;
  }
 
@@ -242,4 +244,16 @@ a li {
     background-color: #b8bedd;
     padding: 20px;
     text-align: center;
+    font-size: 14px;
  }
+
+.chef:hover{
+ cursor: pointer;
+ filter: grayscale(100%);
+ width: 250px;
+ padding: 5px;
+ visibility: visible;
+ transition: filter 1.5s;
+}
+
+
