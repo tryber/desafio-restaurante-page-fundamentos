@@ -212,3 +212,38 @@ h3 {
     border-radius: 0 24px 24px 0;
     vertical-align: middle;
 }
+/* css comentarios */
+
+.comments-section {
+    margin: 60px auto;
+    width: 80%;
+}
+
+.comments-section h1 {
+    text-align: center;
+    margin-bottom: 2%;
+    font-family: 'Lobster', cursive;
+    color: #252627;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.comments {
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+}
+
+.comments p {
+    margin: 16px;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    width: 60%;
+}
+
+.comments img {
+    width: 50%;
+    border-radius: 24px;
+}
