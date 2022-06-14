@@ -247,3 +247,9 @@ h3 {
     width: 50%;
     border-radius: 24px;
 }
+
+footer {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: none;
+}
