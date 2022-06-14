@@ -112,7 +112,7 @@ header {
 
 .restaurant-photo img {
     width: 100%;
-    border-radius: 20px;
+    border-radius: 24px;
     -webkit-box-shadow: 5px 5px 12px -2px rgba(0,0,0,0.82); 
     box-shadow: 5px 5px 12px -2px rgba(0,0,0,0.82); 
 }
@@ -133,13 +133,13 @@ header {
     display: inline-block;
     margin: 0 1%;
     background-color: #ccd5ae;
-    border-radius: 36px;
+    border-radius: 24px;
     -webkit-box-shadow: 5px 5px 12px -2px rgba(0,0,0,0.82); 
     box-shadow: 5px 5px 12px -2px rgba(0,0,0,0.82); 
 }
 
 .dishes img {
-    border-radius: 36px 36px 0 0;
+    border-radius: 24px 24px 0 0;
     width: 100%;
 }
 
@@ -162,15 +162,25 @@ h3 {
 }
 /* chef section css */
 
+.time {
+    text-align: center;
+    width: 50%;
+    height: min-content;
+    margin: auto;
+    background-color: #ccd5ae;
+    border-radius: 24px;
+    -webkit-box-shadow: 5px 5px 12px -2px rgba(0,0,0,0.82); 
+    box-shadow: 5px 5px 12px -2px rgba(0,0,0,0.82); 
+}
+
 .chef {
     margin-top: 60px;
     margin-left: 5%;
     margin-right: 5%;
-    text-align: center;
 }
 
 .about-chef {
-    width: 20%;
+    width: 49%;
     text-align: center;
     display: inline-block;
     vertical-align: middle;
@@ -191,13 +201,14 @@ h3 {
 }
 
 .chef-photo {
-    margin-left: 16px;
+    margin-left: 20px;
     display: inline-block;
-    width: 20%;
+    width: 48%;
 }
 
 .chef-photo img {
     width: 100%;
-    border-radius: 5%;
+    border-radius: 24px;
+    border-radius: 0 24px 24px 0;
     vertical-align: middle;
 }
