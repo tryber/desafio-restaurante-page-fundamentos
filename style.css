@@ -75,7 +75,7 @@ li:hover{
     cursor: pointer;
 }
 
-li:hover a {
+a li:hover {
     color:#fff;
 }
 
@@ -248,10 +248,8 @@ a li {
  }
 
 .chef:hover{
- cursor: pointer;
+ cursor: url(http://www.rw-designer.com/cursor-view/92478.png), auto;
  filter: grayscale(100%);
- width: 250px;
- padding: 5px;
  visibility: visible;
  transition: filter 1.5s;
 }
