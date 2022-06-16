@@ -1,0 +1,80 @@
+#container-banner{
+    background-image: url(../img/bg-vermelho.jpg);
+    height:500px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: relative;
+}
+
+.banner{
+    height: 500px;
+    width: 90%;
+    margin-top:-.5rem;
+    display: grid;
+    gap: .5rem;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+}
+
+.prato{
+    border-radius: 5px;
+}
+
+.prato:nth-child(1){
+    background: url(../img/pratos_banner_01.jpg) center / cover no-repeat;
+    grid-column: 4/4;
+    grid-row: 1/1;
+}
+
+.prato:nth-child(2){
+    background: url(../img/pratos_banner_02.jpg) center / cover no-repeat;
+    grid-column: 3/3;
+    grid-row: 1/1;
+}
+
+.prato:nth-child(3){
+    background: url(../img/pratos_banner_03.jpg) center / cover no-repeat;
+    grid-column: 2/4;
+    grid-row: 3/3;
+}
+
+.prato:nth-child(4){
+    background: url(../img/pratos_banner_04.jpg) center / cover no-repeat;
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+.prato:nth-child(5){
+    background: url(../img/pratos_banner_05.jpeg) center / cover no-repeat;
+    grid-column: 3/3;
+    grid-row: 2/2;
+}
+
+.prato:nth-child(6){
+    background: url(../img/pratos_banner_06.jpeg) center / cover no-repeat;
+    grid-column: 4/4;
+    grid-row: 2/2;
+}
+
+#container-texto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top:30%;
+    background-color: rgba(38, 37, 39, 0.5);
+}
+
+#container-texto img{
+    width: 100px;
+}
+
+#container-texto p{
+    color:white;
+    font-size: 7.0rem;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
