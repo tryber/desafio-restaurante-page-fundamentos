@@ -1,19 +1,21 @@
 body {
     color: black;
     text-align: center;
-    background-image: url(/fotos/menu\ almoço\ encomendas\ pratos\ especiais\ preços\ \(2\).png) ; encom
-    background-repeat: repeat-x repeat-y;
+    background-color: black;
+    background-image: url(/fotos/menu\ almoço\ encomendas\ pratos\ especiais\ preços\ \(2\).png);
+    background-size: 4000px 1000px;
+
 }
 
 h1 {
-    margin-top: 2%;
-    text-align: center;
+    font-family: Cinzel, serif;
+    text-align: left;
     color: black;
     font-size: 350%;
 }
 
 h2 {
-    font-family: 'Prompt', sans-serif;
+    font-family: 'Fauna One', serif;
     color: black;
     font-size: 60px;
     height: 50px;
@@ -22,34 +24,45 @@ h2 {
 
 h3 {
     font-size: 200%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-margin-left: 350px;
-text-align: left;
+    font-family: 'Fauna One', serif;
+    margin-left: 350px;
+    text-align: left;
+    
 }
 
-.links {
-    font-family: inherit;
-    font-size: 100%;
-    color: black;
-    display: inline;
+nav {
+    padding-top: 0em;
+    text-align: right;
+    margin-top: 2%;
+    margin-bottom: -5%;
+    margin-right: 1%;
+    top: 10px;
+
 }
 
 .button {
-    background-color: white;
+    background-color: black;
     border: none;
-    color: black;
+    color: white;
     padding: 10px 65px;
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
+
+
 
 }
 
 #galeria {
     margin-top: 120%;
     margin-left: 10%;
-    text-align: center;
+    margin-right: 11%;
     font-size: 120%;
+}
+
+h3.titulo-galeria{
+    text-align: center;
+    margin-left: 40px;
 }
 
 .img {
@@ -58,6 +71,7 @@ text-align: left;
     padding-right: 1em;
     margin-top: 1%;
     margin-left: 1em;
+    border-radius: 10%;
 }
 
 #imagem-topo {
@@ -65,24 +79,28 @@ text-align: left;
     margin-right: 1em;
 }
 
+.entradas{
+    margin-top: 4em;
+}
+.entrada {
 
-.entrada{
-   
     text-align: justify;
     margin-left: 25%;
-    margin-right: 4px;
+    margin-right: 30%;
 }
-.caldos{
+
+.caldos {
     float: left;
     text-align: justify;
     margin-left: 25%;
     margin-right: 30%;
 }
+
 .saladas {
     float: left;
     text-align: justify;
     margin-left: 25%;
-    margin-left: 25%;
+    margin-right: 30%;
 }
 
 .baiao {
@@ -96,152 +114,195 @@ text-align: left;
     float: left;
     text-align: justify;
     margin-left: 25%;
-    margin-right: 25%;
+    margin-right: 30%;
 }
-.seca{
+
+.seca {
     float: left;
     text-align: left;
     margin-left: 25%;
-    margin-right: 25%;
+    margin-right: 30%;
 }
-.sobremesa{
+
+.sobremesa {
     float: left;
     text-align: left;
-    margin-left: 25%;;
+    margin-right: 30%;
+    margin-left: 25%;
+    
 }
-.sucos{
+
+.sucos {
 
     float: left;
     text-align: left;
     margin-left: 25%;
-    
+
 }
+
 li {
     list-style: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 130%;
+    font-family: 'Fauna One', serif;
+    font-size: 150%;
     color: black;
+    line-height: 1;
 }
 
-article {
-    
-}
+article {}
 
 
 
-.foto1{
+.foto1 {
     width: 400px;
     float: left;
     margin-top: 1%;
-    position:absolute;
+    position: absolute;
     z-index: 1;
     margin-left: -47%;
+    border-radius: 50%;
 }
 
-.foto2{
+.foto2 {
     width: 400px;
     float: left;
     margin-top: 20%;
     margin-left: -47%;
-    position:absolute;
+    position: absolute;
     z-index: 2;
-   
+    border-radius: 50%;
+
 }
-.foto3{
+
+.foto3 {
     width: 400px;
     float: left;
     margin-top: 40%;
     margin-left: -47%;
     position: absolute;
     z-index: 3;
- 
+    border-radius: 50%;
+
 }
-.foto4{
+
+.foto4 {
     width: 400px;
     float: left;
     margin-top: 60%;
     margin-left: -47%;
     position: absolute;
     z-index: 4;
+    border-radius: 50%;
 }
-.foto5{
+
+.foto5 {
     width: 400px;
-    float: left;    
+    float: left;
     margin-top: 80%;
     margin-left: -47%;
     position: absolute;
     z-index: 5;
+    border-radius: 50%;
 }
-.foto6{
+
+.foto6 {
     width: 400px;
     float: left;
     margin-top: 100%;
     margin-left: -47%;
     position: absolute;
     z-index: 6;
+    border-radius: 50%;
 }
 
-.foto7{
+.foto7 {
     width: 400px;
     float: left;
     margin-top: 120%;
     margin-left: -47%;
     position: absolute;
-    z-index: 7; 
+    z-index: 7;
+    border-radius: 50%;
 }
-.foto8{
+
+.foto8 {
     width: 400px;
     float: right;
     margin-top: 1%;
     margin-left: 27%;
     position: absolute;
-    z-index: 8; 
+    z-index: 8;
+    border-radius: 50%;
 }
-.foto9{
+
+.foto9 {
     width: 400px;
     float: right;
     margin-top: 20%;
     margin-left: 27%;
     position: absolute;
-    z-index: 9; 
+    z-index: 9;
+    border-radius: 50%;
 }
-.foto10{
+
+.foto10 {
     width: 400px;
     float: right;
     margin-top: 40%;
     margin-left: 27%;
     position: absolute;
-    z-index: 10; 
+    z-index: 10;
+    border-radius: 50%;
 }
-.foto11{
+
+.foto11 {
     width: 400px;
     float: right;
     margin-top: 60%;
     margin-left: 27%;
     position: absolute;
-    z-index: 11; 
+    z-index: 11;
+    border-radius: 50%;
 }
-.foto12{
+
+.foto12 {
     width: 400px;
     float: right;
     margin-top: 80%;
     margin-left: 27%;
     position: absolute;
-    z-index: 12; 
+    z-index: 12;
+    border-radius: 50%;
 }
-.foto13{
+
+.foto13 {
     width: 400px;
     float: right;
     margin-top: 100%;
     margin-left: 27%;
     position: absolute;
-    z-index: 13s; 
+    z-index: 13s;
+    border-radius: 50%;
 }
-.foto14{
+
+.foto14 {
     width: 400px;
     float: right;
     margin-top: 120%;
     margin-left: 27%;
     position: absolute;
-    z-index: 13s; 
+    z-index: 13s;
+    border-radius: 50%;
+}
+
+.localizacao{
+    font-size: 20px;
+
+}
+p{
+    font-size: 20px;
+}
+
+.final{
+    font-style: italic;
+
 }

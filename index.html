@@ -6,6 +6,7 @@
 
   <!-- Adicione o estilo da sua página no arquivo CSS -->
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel|Fauna+One">
 
   <!-- Algum nome especial para seu restaurante? -->
   <title>Sabor do Nordeste</title>
@@ -14,17 +15,20 @@
 
 <body>
   <Header class="header">
-    <h1>Sabor do Nordeste</h1>
-    <img src="/fotos/banner.png" alt="" width="1820px" height="400px" id="imagem-topo">
-    <nav>
-      <ul>
+
+    <nav id="links">
+      <ul></strong>
         <li class="button">Página Inicial</li>
         <li class="button">Cardápio</li>
         <li class="button">Contato</li>
         <li class="button">Galeria</li>
         <li class="button">Depoimentos</li>
+        </strong>
       </ul>
     </nav>
+    <h1 class="font-effect-outline">SABOR DO NORDESTE</h1>
+    <img src="/fotos/banner.png" alt="" width="1809px" height="400px" id="imagem-topo">
+
   </Header>
   <article>
     <aside>
@@ -37,15 +41,15 @@
       <img class="foto7" src="/fotos/foto7.jpg" alt="">
       <img class="foto8" src="/fotos/foto8.jpg" alt="">
       <img class="foto9" src="/fotos/foto9.jpg" alt="">
-      <img class="foto10" src="/fotos/foto10.jpg" alt="">
+      <img class="foto10" src="/fotos/foto13.jpg" alt="">
       <img class="foto11" src="/fotos/foto11.jpg" alt="">
       <img class="foto12" src="/fotos/foto12.jpg" alt="">
-      <img class="foto13" src="/fotos/foto13.jpg" alt="">
+      <img class="foto13" src="/fotos/foto10.jpg" alt="">
       <img class="foto14" src="/fotos/foto14.jpg" alt="">
     </aside>
     <h2>Cardápio</h2>
     <div class="entrada">
-      <h3>Entradas:</h3>
+      <h3 class="entradas">Entradas: R$ 29,90</h3>
       <ul>
         <li><strong>Mandioca FRITA</strong> </li>
         <p>Cubos de macaxeira crocantes com sabor de roça.</p>
@@ -57,7 +61,8 @@
     </div>
     <br>
     <div class="caldos">
-      <h3>Caldos</h3>
+      <h3>Caldos R$
+        18,90</h3>
       <ul>
         <li><strong>Caldo de Mocotó</li>
         <li>Caldo de Carne Seca com Abóbora</li>
@@ -69,12 +74,12 @@
     <div class="saladas">
       <h3>Saladas</h3>
       <ul>
-        <li><strong>Salada da Terra</strong></li>
+        <li><strong>Salada da Terra R$ 27,90</strong></li>
         <p>Uma salada com leveza e sabor preparada com banana da terra grelhada, queijo coalho, mandioca, abóbora,
           alface
           e
           tomate.</p>
-        <li><strong>Salada Nordestina</strong></li>
+        <li><strong>Salada Nordestina R$ 29,90</strong></li>
         <p>Um preparo com leveza e sustância. Alface, tomate, cebola roxa, milho, carned e sol desfiada, vinagrete de
           feijão fradinho.</p>
       </ul>
@@ -82,16 +87,16 @@
     <div class="baiao">
       <h3>Baião de Dois!</h3>
       <ul>
-        <li>Baião da Casa R$ 35,90/R$ 68,90/R$ 99,90</li>
+        <li><strong>Baião da Casa R$ 99,90</strong></li>
         <p>Uma mistura de arroz e feijão de corda, puxado na
           manteiga de garrafa, com nosso mix de tempero
           secreto, lascas de carne de sol, mandioca, queijo
           coalho, costelinha suina e torresmo .</p>
-        <li>Baião com Picanha R$ 42,90/R$ 81,90/R$ 120,90</li>
+        <li><strong>Baião com Picanha R$ 120,90</strong></li>
         <p>Um encontro do nosso baião com a mais nobre das
           carnes. Bife de Picanha, grelhada na manteiga de
           garrafa, queijo coalho, mandioca frita e torresmo.</p>
-        <li>Baião Arretado R$ 38,90/R$ 76,90/R$ 113,90</li>
+        <li><strong>Baião Arretado R$ 113,90</strong></li>
         <p>Criado em homenagem ao logo do restaurante, “
           Pense num lugar arretado “ . Nosso inconfundível
           baião, com carne seca em lascas grelhada na
@@ -103,15 +108,15 @@
     <div class="sol">
       <h3>Carne de Sol</h3>
       <ul>
-        <li>CARNE DE SOL À
-          MODA DA CASA R$ 31,90/R$ 61,90/R$ 93,90</li>
+        <li><strong>CARNE DE SOL À
+            MODA DA CASA R$ 93,90</strong></li>
         <p>Ela é típica do Nordeste, mas a paixão é nacional.
           Aqui ela é preparada com nosso tradicional carinho e
           cuidado.Carne de Sol em lascas, grelhada em
           manteiga de garrafa, madioca, arroz, feijão de corda
           e torresmo</p>
-        <li>CARNE DE SOL
-          RAIZ DO SERTÃO R$ 34,90/R$ 67,90/R$ 103,90</li>
+        <li><strong>CARNE DE SOL
+            RAIZ DO SERTÃO R$ 103,90</strong></li>
         <p>Esse prato é para derreter na boca com sabor e maciez .
           Um respeitado bife de coração de alcatra grelhado na
           manteiga de garrafa, mandioca frita, arroz, feijão de
@@ -122,13 +127,13 @@
     <div class="seca">
       <h3>Carne Seca</h3>
       <ul>
-        <li>ARRUMADINHO
-          DE CARNE SECA R$ 33,90/R$ 65,90/R$ 99,70</li>
+        <li><strong>ARRUMADINHO
+            DE CARNE SECA R$ 99,70</strong></li>
         <p>Fios de carne seca, grelhada na manteiga de garrafa,
           cebola roxa, mandioca em cubos, arroz, feijão de
           corda e torresmo. </p>
-        <li>JUNTO E
-          MISTURADO R$ 33,90/R$ 65,90/R$ 99,70</li>
+        <li><strong>JUNTO E
+            MISTURADO R$ 65,90</strong></li>
         <p>Inspirado em um dos pratos mais clássicos do
           Nordeste, “ Maria e Isabel “ nossa versão deste prato,
           consiste em uma carne seca desfiada, puxada com
@@ -139,16 +144,17 @@
     <br>
     </div>
     <div class="sucos">
-      <h3>Sucos</h3>
-      <ul>
-        <li>Cajá</li>
-        <li>Caju</li>
-        <li>Cupuaçu</li>
-        <li>Graviola</li>
-        <li>Umbú</li>
-        <li>Mangaba</li>
-        <li>Tamarino</li>
-        <li>Seriguela</li>
+      <h3>Sucos R$ 8,90</h3>
+      <ul><strong>
+          <li>Cajá</li>
+          <li>Caju</li>
+          <li>Cupuaçu</li>
+          <li>Graviola</li>
+          <li>Umbú</li>
+          <li>Mangaba</li>
+          <li>Tamarino</li>
+          <li>Seriguela</li>
+        </strong>
       </ul>
     </div>
 
@@ -167,7 +173,7 @@
 
   <br>
   <div id="galeria">
-    <h3>Galeria</h3>
+    <h3 class="titulo-galeria">Galeria</h3>
     <img class="img" src="http://www.nordesteamesa.com.br/img/fotos/10.jpg" alt="" width="400px">
     <img class="img" src="http://www.nordesteamesa.com.br/img/fotos/11.jpg" alt="" width="400px">
     <img class="img" src="http://www.nordesteamesa.com.br/img/fotos/8.jpg" alt="" width="400px">
@@ -176,13 +182,31 @@
     <img class="img" src="http://www.nordesteamesa.com.br/img/fotos/4.jpg" alt="" width="400px">
     <img class="img" src="http://www.nordesteamesa.com.br/img/fotos/15.jpg" alt="" width="400px">
   </div>
-  <h4>Horário de Funcionamento</h3>
+
+  <div>
+
+    <h3>Equipe:</h3>
+    <img src="/fotos/gerente.jpg" alt="" width="250px">
+    <h4>Gerente</h4>
+    <img src="/fotos/chefe.jpg" alt="" width="250px">
+    <h4>Chefe de cozinha</h4>
+    <img src="/fotos/cozinheiro.jpg" alt="" width="250px">
+    <h4>Cozinheiro</h4>
+    <img src="/fotos/barman.jpeg" alt="" width="250px">
+    <h4>Barman</h4>
+
+  </div>
+
+
+  <h4 class="localizacao"><strong>Horário de Funcionamento</strong></h3>
     <p>Das 11:00 Às 17:00 Hs</p>
 
-    <h4>Contato e localização</h3>
-      <p>(11) 5102-4584 <br>
-        (11) 97634- 9284 (WhatsApp) <br>
-        Av. Nova Independência, 453</p>
+    <h4 class="localizacao"><strong>Contato e localização</strong></h3>
+      <p>(11) 5202-4584 <br>
+        (11) 97343- 9284 (WhatsApp) <br>
+        Av. Santa Independência, 783</p>
+
+      <p class="final">"Desenvolvido por Natália Oliveira, 2022."</p>
 </body>
 
 </html>
