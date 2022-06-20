@@ -1,43 +1,191 @@
+body {
+    color: black;
+    text-align: center;
+    background-image: url(/fotos/menu\ almoço\ encomendas\ pratos\ especiais\ preços\ \(2\).png) ; encom
+    background-repeat: repeat-x repeat-y;
+}
 
-body{
-    background-image: url(http://www.nordesteamesa.com.br/img/banner/banner_cabrito_a_moda_da_casa.jpg);
-    background-repeat: no-repeat;
+h1 {
     background-color: #E4D1B9;
-    color: #A97155;
+    margin-top: 0%;
     text-align: center;
-}
-h1{
-    text-align: center;
-    color: #A97155;
-    font-size: 250%;
-}
-h2{
-    
-    color: #EBD3B4;
-    font-size: 50px;
-    height: 50px;
-    
+    color: black;
+    font-size: 350%;
 }
 
-.links{
+h2 {
+    font-family: 'Prompt', sans-serif;
+    color: black;
+    font-size: 60px;
+    height: 50px;
+    margin-top: 5%;
+}
+
+h3 {
+    font-size: 200%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin-left: 350px;
+text-align: left;
+}
+
+.links {
     font-family: inherit;
     font-size: 100%;
-    font-weight: ;
-    color: #A97155;
+    color: black;
     display: inline;
 }
 
-#galeria{
-   text-align: center;
-   font-size: 160%;
-   
+.button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 65px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+
+}
+
+#galeria {
+    margin-top: 120%;
+    margin-left: 10%;
+    text-align: center;
+    font-size: 120%;
 }
 
 .img {
     text-align: center;
-  padding-left: 0%;
-  padding-right: 1em;
-  margin-top: 1em;
-  margin-left: 1em;
-  
+    padding-left: 1%;
+    padding-right: 1em;
+    margin-top: 1%;
+    margin-left: 1em;
+}
+
+#imagem-topo {
+    margin-top: 0%;
+    margin-right: 1em;
+}
+
+
+.entrada{
+   
+    text-align: justify;
+    margin-left: 25%;
+    margin-right: 4px;
+}
+.caldos{
+    float: left;
+    text-align: justify;
+    margin-left: 25%;
+    margin-right: 30%;
+}
+.saladas {
+    float: left;
+    text-align: justify;
+    margin-left: 25%;
+    margin-left: 25%;
+}
+
+.baiao {
+    float: left;
+    text-align: justify;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.sol {
+    float: left;
+    text-align: justify;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.seca{
+    float: left;
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.sobremesa{
+    float: left;
+    text-align: left;
+    margin-left: 25%;;
+}
+.sucos{
+
+    float: left;
+    text-align: left;
+    margin-left: 25%;
+    
+}
+li {
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 130%;
+    color: black;
+}
+
+article {
+    
+}
+
+
+
+.foto1{
+    width: 400px;
+    float: left;
+    margin-top: 1%;
+    position:absolute;
+    z-index: 1;
+    margin-left: -47%;
+}
+
+.foto2{
+    width: 400px;
+    float: left;
+    margin-top: 20%;
+    margin-left: -47%;
+    position:absolute;
+    z-index: 2;
+   
+}
+.foto3{
+    width: 400px;
+    float: left;
+    margin-top: 40%;
+    margin-left: -47%;
+    position: absolute;
+    z-index: 3;
+ 
+}
+.foto4{
+    width: 400px;
+    float: left;
+    margin-top: 60%;
+    margin-left: -47%;
+    position: absolute;
+    z-index: 4;
+}
+.foto5{
+    width: 400px;
+    float: left;    
+    margin-top: 80%;
+    margin-left: -47%;
+    position: absolute;
+    z-index: 5;
+}
+.foto6{
+    width: 400px;
+    float: left;
+    margin-top: 100%;
+    margin-left: -47%;
+    position: absolute;
+    z-index: 6;
+}
+
+.foto7{
+    float: left;
+    margin-top: 130%;
+    margin-left: -36%;
+    position: absolute;
+    z-index: 7; 
 }
