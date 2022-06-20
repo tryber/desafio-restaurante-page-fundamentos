@@ -1,2 +1,260 @@
-/* Adicione aqui todo o estilo da sua página */
-/* Hora de colocar a criatividade em prática! */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Serif+Text&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-style: none;
+    overflow-x: hidden;
+}
+
+.head-nav{
+    
+    display: flex;    
+    justify-content: space-around;
+    background-color: rgb(26, 26, 26);
+    align-items: center;
+    height: 65px;
+    width: 100vw;
+    position: fixed;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.336), 0 6px 20px 0 rgba(0, 0, 0, 0.459);
+}
+
+.head-logo{
+    font-size: 35px;
+    font-family: 'Bree Serif', serif;
+    color: white;
+    font-weight: 100;
+}
+
+.head-ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.head-nav-item{
+    font-size: 20px;
+    font-family: 'Bree Serif', serif;
+    color: white;
+}
+
+.head-nav-item:hover{
+    color: rgb(231, 231, 231);
+    
+}
+
+.main-banner{
+    height: 100%;
+    width: 100vw;  
+    margin-top: 65px;
+}
+
+.main-cardapio-image{
+    
+    max-width: 35%;  
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.555), 0 6px 20px 0 rgba(0, 0, 0, 0.575);
+    margin-left: 25px ;
+    
+
+}
+
+.main-cardapio{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    width: 100vw;
+}
+
+.main-cardapio-content{
+    text-align: center;
+    font-family: 'DM Serif Text', serif;
+    font-size: 22px;
+
+}
+
+.main-cardapio-content p{
+    margin-top: 20px;
+}
+
+.main-cardapio-button{
+    margin-top: 15px;
+    height: 73px;
+    border-style: none;
+    width: 185px;
+    border-radius: 20px;
+    font-family: 'Bree Serif', serif;
+    font-size: 18px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    border: 2px solid black;
+    background-color: white;
+    transition: all 0.5s; 
+}
+
+.main-cardapio-button:hover{
+    background-color: rgb(218, 218, 218);
+}
+
+
+
+.main-sobre{
+    
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    width: 100vw;
+}
+
+.main-sobre-image{
+    max-width: 35%;  
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.555), 0 6px 20px 0 rgba(0, 0, 0, 0.575);
+    margin-right: 25px;
+}
+
+.main-sobre-content{
+    text-align: center;
+    font-family: 'DM Serif Text', serif;
+    font-size: 22px;
+}
+
+.main-sobre-button{
+    margin-top: 15px;
+    height: 73px;
+    border-style: none;
+    width: 185px;
+    font-family: 'Bree Serif', serif;
+    font-size: 18px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    border: 2px solid black;
+    background-color: white;
+    transition: all 0.5s;
+    border-radius: 20px;
+   
+}
+
+
+.main-sobre-button:hover{
+
+    background-color: rgb(218, 218, 218);
+
+}
+
+
+
+.footer-end{
+    display: flex;   
+    justify-content: space-around;
+    align-items: center;
+    height: 65px;
+    background-color: rgb(22, 22, 22);
+    width: 100vw;
+    height: 120px;
+    margin-top: 50px;
+}
+
+.footer-end-frase{
+    font-family: 'Bree Serif', serif;
+    color: white;
+    font-size: 20px; 
+    margin-left: 5px; 
+}
+
+.footer-end-icones img{
+    width: 35px;
+    margin:15px;
+}
+
+.footer-end-icones img:hover{
+   opacity: 0.7;
+}
+
+@media only screen and (max-width: 488px) {
+    .main-cardapio-image{
+        width: 0%;
+        margin-left: 0px ;
+    }
+
+    .main-sobre-image{
+        max-width: 0%;  
+        margin-right: 0px;
+    }
+
+
+    .main-cardapio{
+        display: flex;
+        margin-top: 50px;
+        justify-content: center ;
+        align-items: center;
+        gap: 0px;
+        width: 100vw;
+    }
+
+    .main-sobre{
+    
+        display: flex;
+        margin-top: 50px;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        width: 100vw;
+    }
+
+    .main-cardapio-content{
+        text-align: center;
+        font-family: 'DM Serif Text', serif;
+        font-size: 22px;
+        margin: 0 15px;
+    
+    }
+
+    .main-sobre-content{
+        text-align: center;
+        font-family: 'DM Serif Text', serif;
+        font-size: 22px;
+        margin: 0 15px;
+    }
+    
+    .head-logo{
+        font-size: 28px;
+        font-family: 'Bree Serif', serif;
+        color: white;
+        font-weight: 100;
+    }
+
+    .head-nav-item{
+        font-size: 15px;
+        font-family: 'Bree Serif', serif;
+        color: white;
+    }
+
+    .footer-end{
+        display: flex;   
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 65px;
+        background-color: rgb(22, 22, 22);
+        width: 100vw;
+        height: 120px;
+        margin-top: 50px;
+    }
+    
+    .footer-end-icones img{
+        width: 25px;
+        margin: 0 0;
+    }
+
+    .footer-end-frase{
+        font-family: 'Bree Serif', serif;
+        color: white;
+        font-size: 20px; 
+        margin-left: 0px; 
+    }
+}
