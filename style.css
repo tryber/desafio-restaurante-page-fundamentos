@@ -1,2 +1,75 @@
-/* Adicione aqui todo o estilo da sua página */
-/* Hora de colocar a criatividade em prática! */
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  background-color: #ffffff;
+  font-size: 17px;
+  color: #151515;
+}
+
+/* Menu */
+header {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e3e8ed;
+}
+
+header nav ul {
+  display: flex;
+  margin: 17px;
+}
+
+header nav ul li {
+  list-style-type: none;
+  padding-left: 25px;
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 1px;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+header nav ul a:hover {
+  color: blue;
+}
+/* cabeçalho */
+
+.cabecalho {
+  margin: 20px;
+  background-image: url(images/pexels-elevate-1267320.jpg);
+  background-size: cover;
+  background-position: 100%;
+  height: 500px;
+}
+
+.texto-cabecalho {
+  max-width: 520px;
+  padding: 10px;
+  color: white;
+  padding-top: 80px;
+  margin-left: 40px;
+}
+.texto-cabecalho h1 {
+  text-align: left;
+  padding: 10px 0px 0px 30px;
+  font-size: 45px;
+}
+
+.texto-cabecalho p {
+  padding: 20px 0px 0px 35px;
+  max-width: 400px;
+}
+
+/* cardapio */
